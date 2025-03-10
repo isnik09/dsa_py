@@ -1,4 +1,15 @@
 # Arrays
+
+- [Arrays](#arrays)
+  - [Big O of common array operations](#big-o-of-common-array-operations)
+    - [Access](#access)
+    - [Set](#set)
+    - [Traverse / Search](#traverse--search)
+    - [Copy](#copy)
+    - [Insert](#insert)
+    - [Remove](#remove)
+
+
 ## Big O of common array operations 
 ### Access
 - Space = $O(1)$
