@@ -4,6 +4,8 @@
   - [When to use recursion?](#when-to-use-recursion)
   - [Recursive Leap of faith](#recursive-leap-of-faith)
   - [Recursion vs Iteration](#recursion-vs-iteration)
+  - [Ways to write base condition](#ways-to-write-base-condition)
+  - [Recurrence relation](#recurrence-relation)
  
 ## What is recursion? 
 Function calling itself until base condition / terminating condition is validated is recursion. 
@@ -26,4 +28,10 @@ If we can solve the problem with dividing it into subproblem them we can solve i
 - Iteration does not use recursive call stack, so it has better space complexity.
 - Recursion has both ascending phase  (calling phase) and descending phase (returning phase)
 - Iteration only has ascending phase.
+  
+## Ways to write base condition 
+- Think about last valid input or first invalid input instead of thinking about entire recursion function. 
 
+
+## Recurrence relation 
+Express the solution of a problem as a function of the solutions to smaller instances of the same problem. 
